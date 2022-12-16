@@ -1,0 +1,1 @@
+class MyQueue{x=[];constructor(){this.x=[];}push(x){this.x.push(x);}pop(){var m=this.x[0],q;if(this.x.length>0){q=m;}this.x.shift();return q;}peek(){return this.x[0];}empty(){return this.x.length===0}}
